@@ -1,7 +1,7 @@
 /** @module lc4/config */
 
 /** LC4 alphabet */
-export const ALPHABET = "#_23456789abcdefghijklmnopqrstuvwxyz";
+export const ALPHABET = "_123456789abcdefghijklmnopqrstuvwxyz";
 /** LS47 alphabet */
 export const ALPHABET_LS47 =
     "_abcdefghijklmnopqrstuvwxyz.0123456789,-+*/:?!'()";
@@ -15,5 +15,5 @@ export const DEFAULT_SETTINGS = {
     signature: null,
     headerData: null,
     nonce: null,
-    verbose: false
+    verbose: true
 };
